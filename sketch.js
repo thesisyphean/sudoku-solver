@@ -5,7 +5,6 @@ let cellSize;
 
 function setup() {
     createCanvas(600, 600);
-    textSize(32);
     textAlign(CENTER, CENTER);
     noLoop();
     cellSize = width / 9;
@@ -21,7 +20,7 @@ function mousePressed() {
 
 function keyPressed() {
     if (keyCode === ENTER) {
-        sudoku.backtrack();
+        sudoku.solve();
     } else if (key === " ") {
         sudoku.reset();
     } else {
@@ -42,6 +41,7 @@ function draw() {
     }
     for (let x = 0; x < 9; x++) {
         for (let y = 0; y < 9; y++) {
+            textSize((x == selCell.x && y === selCell.y) ? 40 : 32);
             text(sudoku.puzzle[x][y] ? sudoku.puzzle[x][y] : "", (x + 0.5) * cellSize, (y + 0.5) * cellSize + 3);
         }
     }
