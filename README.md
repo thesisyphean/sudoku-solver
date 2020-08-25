@@ -8,4 +8,4 @@ a puzzle is incorrect, until it eventually generates the correct puzzle.
 ## How to use
 Go to https://ethanpwolff.github.io/sudoku-solver/ to test it out for yourself!\
 Click on a cell to select it, and then press a key from 0-9 to place it in that cell.\
-You can then press <kbd>Enter</kbd> to solve and <kbd>Space</kbd to reset the puzzle.
+You can then press <kbd>Enter</kbd> to solve and <kbd>Space</kbd> to reset the puzzle.
