@@ -1,10 +1,10 @@
 # Sudoku Solver
-A solver for sudoku puzzles implemented with JavaScript using the p5.js library for the GUI.
+A solver for sudoku puzzles implemented with JavaScript using the p5.js library for the GUI.\
 https://p5js.org/
 
 ## How it works
 It uses a recursive backtracking algorithm to test possible puzzles and backtrack when\
-a puzzle is incorrect, until it eventually generates the correct puzzle.
+a puzzle is incorrect, until it eventually generates the correct puzzle.\
 https://en.wikipedia.org/wiki/Backtracking
 
 ## How to use
