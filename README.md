@@ -9,5 +9,5 @@ https://en.wikipedia.org/wiki/Backtracking
 
 ## How to use
 Go to https://ethanpwolff.github.io/sudoku-solver/ to test it out for yourself!\
-Click on a cell to select it, and then press a key from 0-9 to place it in that cell.\
+Click on a cell to select it, and then press a key from <kbd>0</kbd>-<kbd>9</kbd> <kbd>0-9</kbd> to place it in that cell.\
 You can then press <kbd>Enter</kbd> to solve and <kbd>Space</kbd> to reset the puzzle.
