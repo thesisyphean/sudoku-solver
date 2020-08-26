@@ -68,6 +68,6 @@ class Sudoku {
     }
 
     reset() {
-        this.puzzle.forEach(v => v.fill(0));
+        this.puzzle.forEach(e => e.fill(0));
     }
 }
